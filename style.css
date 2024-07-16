@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #0f0f0f;
+}
+
+.nav-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 10px 25px;
+    height: 100px;
+    border-bottom: 1px solid rgba(69, 67, 67, 0.5);
+}
+
+.menu-close-open{
+    margin-left: 35px;
+}
+
+ .menu-close-open ion-icon{
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 50px;
+    color: white;
+}
+
+.icon-youtube, svg{
+    width: 8%;
+}
+
+.nav_menu{
+    width: 350px;
+    height: 100vh;
+    transition: .5s ease;
+    overflow-x: hidden;
+}
+
+aside::-webkit-scrollbar{
+    width: 8px;
+}
+
+aside::-webkit-scrollbar-thumb{
+    background-color: #909090;
+    border-radius: 5px;
+}
+
+.desplegar{
+    transform: translateX(-100%);
+}
+
+
+
+.menu{
+    padding: 35px 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.372);
+}
+
+
+
+.icon-menu{
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.active{
+    background-color: #4947476d;
+}
+
+.icon-menu:hover{
+    background-color: #4947476d;
+    transition: .1s;
+}
+
+.texto{
+    color: white;
+    margin-left: 35px;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
